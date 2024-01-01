@@ -137,4 +137,81 @@
   padding: 0;
   outline: none;
   font-family: "League Spartan", sans-serif;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item {
+  position: relative;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: rgba(239, 239, 239, 0.4901960784);
+  padding: 15px;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item .text h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #2B3D5C;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item .text p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: #2B3D5C;
+}
+@media (max-width: 768px) {
+  #carouselExampleIndicators .carousel-inner .carousel-item .text {
+    width: 100%;
+  }
+  #carouselExampleIndicators .carousel-inner .carousel-item .text h1 {
+    font-size: 18px;
+  }
+  #carouselExampleIndicators .carousel-inner .carousel-item .text p {
+    font-size: 16px;
+  }
+}
+
+#about .container .text {
+  border-top: 1px solid #CC9966;
+  width: 100%;
+  margin: 30px 0px 0px 0px;
+  padding: 20px 0px;
+}
+#about .container .row {
+  background-color: rgba(204, 153, 102, 0.2);
+}
+#about .container .row .information {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#about .container .row .information h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #2B3D5C;
+}
+#about .container .row .information p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #2B3D5C;
+  text-align: center;
+}
+#about .container .row .images {
+  padding: 0;
+}
+#about .container .row .images img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

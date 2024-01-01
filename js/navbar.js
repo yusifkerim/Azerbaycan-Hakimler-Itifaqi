@@ -7,3 +7,4 @@ function toggleSearchInput() {
     const searchInput = document.querySelector('.search-input');
     searchInput.style.display = (searchInput.style.display === 'none' || searchInput.style.display === '') ? 'block' : 'none';
 }
+

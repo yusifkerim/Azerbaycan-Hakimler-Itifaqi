@@ -1,5 +1,103 @@
-#carusel{
-    .carouselExample{
-        
+#carouselExampleIndicators{
+   
+    .carousel-inner{
+
+        .carousel-item{
+            position: relative;
+            img{
+                width: 100%;
+                height: auto; 
+            }
+            .text{
+                position: absolute;
+                top: 50%; 
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%; 
+                background-color: #efefef7d;
+                padding: 15px;
+                h1{
+                    text-align: center;
+                    font-size: 26px;
+                    font-weight: 600;
+                    color: #2B3D5C;
+
+                }
+                p{
+                    text-align: center;
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: #2B3D5C;
+
+                }
+            }
+
+        }
     }
+
+
+    @media (max-width: 768px) {
+        .carousel-inner {
+            .carousel-item {
+                .text {
+                   width: 100%;
+                   h1{
+                    font-size: 18px;
+                   }
+                   p{
+                    font-size: 16px;
+                   }
+                }
+            }
+        }
+    }
+
+}
+#about{      
+ 
+    .container{
+  
+      .text{
+        border-top: 1px solid #CC9966;
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+        padding: 20px 0px;
+      }
+        .row{
+            background-color: #CC996633;
+            .information{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              
+
+                h1{
+                    font-size: 24px;
+                    font-weight: 700;
+                    text-align: center;
+                    color: #2B3D5C;
+    
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #2B3D5C;
+                    text-align: center;
+    
+                }
+            }
+
+            .images{
+                padding: 0;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+    
+        }
+    }
+    
 }
